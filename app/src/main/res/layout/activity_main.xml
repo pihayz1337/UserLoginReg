@@ -84,7 +84,7 @@
         android:id="@+id/Submit" />
 
     <Button
-        android:text="Already Register | Log In Here"
+        android:text="Already Registered? Log In Here"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Submit"
