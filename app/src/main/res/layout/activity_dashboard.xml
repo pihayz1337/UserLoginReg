@@ -10,37 +10,34 @@
     android:padding="5dp">
 
     <TextView
-        android:text="SuccessFully Logged In, Your Email =  "
+        android:text="SuccessFully Logged In,  "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
         android:id="@+id/textView"
         android:textColor="#ffffff"
-        android:textSize="30dp"
-        android:gravity="center"
+        android:textSize="20dp"
         />
 
     <TextView
-        android:text=""
+        android:text="...."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:id="@+id/EmailShow"
         android:textColor="#ffffff"
-        android:textSize="30dp"
-        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
         android:layout_below="@+id/textView"/>
 
     <Button
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="380dp"
         android:layout_width="fill_parent"
         android:layout_below="@+id/EmailShow"
         android:layout_height="wrap_content"
         android:id="@+id/button"
         android:text="Logout"/>
-
 
 
 </RelativeLayout>
